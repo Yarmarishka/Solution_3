@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
 
 // Массив имен
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul",
@@ -17,7 +17,7 @@ for (var i = 0; i < names.length; i++) {
   if (firstLetter === 'j') {
     byeSpeaker_main.speak(names[i]);
   } else {
-    helloSpeaker_main.speak(names[i]) + " " + helloSpeaker_main.value_555;
+    helloSpeaker_main.speak(names[i]);
   }
 }
 
